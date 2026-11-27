@@ -1,3 +1,11 @@
+/*
+ * Copyright (c) 2026 Steven M. Cohn
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
+
 :root { color-scheme: light dark; }
 body { width: 300px; min-height: 270px; margin: 0; padding: 12px; font: 14px "Segoe UI", system-ui, sans-serif; }
 h1 { margin: 0 0 10px; font-size: 18px; }

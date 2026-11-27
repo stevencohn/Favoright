@@ -1,3 +1,11 @@
+/*
+ * Copyright (c) 2026 Steven M. Cohn
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
+
 import { flattenFavorites } from './lib/bookmarks.js';
 import { checkFavorites, readerModeTarget, skipReason } from './lib/checker.js';
 import { buildSections, countByStatus, formatCount, formatDate } from './lib/report-model.js';

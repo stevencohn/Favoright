@@ -33,6 +33,9 @@ step and no dependencies. Load `src/` unpacked. Run `npm test` after changes.
   bookmarks API does not expose it (checked in Edge, 2026-11-27). The popup
   checkbox mirrors the permission itself, not a stored setting.
 - 401, 403, 429 and 999 count as reachable (`REACHABLE_BUT_RESTRICTED`).
+- Source files start with the MPL-2.0 header and copyright line: a `/* */`
+  block in JS and CSS, an HTML comment right after `<!DOCTYPE html>`. JSON
+  files have none.
 - Bookmark names and URLs are untrusted: render with `textContent`, and only
   link `http`/`https` URLs.
 
