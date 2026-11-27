@@ -6,8 +6,10 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 
-:root { color-scheme: light dark; }
-body { width: 300px; min-height: 270px; margin: 0; padding: 12px; font: 14px "Segoe UI", system-ui, sans-serif; }
+/* A fixed dark background, so controls use their dark style in every theme. */
+:root { color-scheme: dark; }
+body { width: 300px; min-height: 270px; margin: 0; padding: 12px; font: 14px "Segoe UI", system-ui, sans-serif; background: #2b2e3b; color: #e6e7eb; }
+a { color: #ffc828; }
 h1 { margin: 0 0 10px; font-size: 18px; }
 fieldset { margin: 0 0 10px; border: 1px solid #8886; border-radius: 6px; }
 label { display: block; margin: 6px 0; }
