@@ -54,6 +54,12 @@ later are not prefixed until you untick and tick the box again.
 
 Consider exporting your favorites (`edge://favorites`) before the first use.
 
+## Packaging
+
+`npm run package` writes `dist/favoright-<version>.zip`, taking the version
+from `src/manifest.json`. Upload that file to Partner Center. Raise the
+manifest version before packaging an update.
+
 ## Tests
 
 Requires Node.js 20 or later. There are no dependencies to install.
