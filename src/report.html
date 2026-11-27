@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Favoright report</title>
+  <link rel="stylesheet" href="report.css">
+</head>
+<body>
+  <header>
+    <h1>Favoright report</h1>
+    <button id="save" type="button" hidden>Save as HTML file</button>
+  </header>
+
+  <div id="progress">
+    <p id="progressText" role="status">Reading favorites…</p>
+    <progress id="progressBar"></progress>
+  </div>
+
+  <main id="report"></main>
+
+  <script type="module" src="report.js"></script>
+</body>
+</html>

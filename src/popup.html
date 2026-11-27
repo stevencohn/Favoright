@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Favoright</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Favoright</h1>
+
+  <fieldset>
+    <legend>Broken favorites report</legend>
+    <label><input type="radio" name="scope" value="suspect"> Suspect favorites only</label>
+    <label><input type="radio" name="scope" value="all"> All favorites (suspect first)</label>
+    <label><input type="checkbox" id="visitCounts"> Show visit counts (uses browsing history)</label>
+    <button id="generate" type="button">Generate report</button>
+  </fieldset>
+
+  <fieldset>
+    <legend>Preferences</legend>
+    <label><input type="checkbox" id="folderGlyph"> Prefix folder names with 📁</label>
+    <p id="status" role="status"></p>
+  </fieldset>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

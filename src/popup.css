@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; }
+body { width: 300px; min-height: 270px; margin: 0; padding: 12px; font: 14px "Segoe UI", system-ui, sans-serif; }
+h1 { margin: 0 0 10px; font-size: 18px; }
+fieldset { margin: 0 0 10px; border: 1px solid #8886; border-radius: 6px; }
+label { display: block; margin: 6px 0; }
+button { padding: 5px 14px; font: inherit; cursor: pointer; }
+#generate { margin-top: 6px; }
+#status { margin: 4px 0 0; font-size: 12px; }
+#status:empty { display: none; }
