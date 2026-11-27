@@ -65,3 +65,7 @@ manifest version before packaging an update.
 Requires Node.js 20 or later. There are no dependencies to install.
 
     npm test
+
+## License
+
+[Mozilla Public License 2.0](LICENSE)

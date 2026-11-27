@@ -44,7 +44,7 @@ PRIVATE BY DESIGN
   cookies and no referrer.
 • Everything stays on your computer.
 
-Free. Source code: https://github.com/stevencohn/Favoright
+Free and open source (MPL-2.0): https://github.com/stevencohn/Favoright
 
 ## Category
 
