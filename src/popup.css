@@ -7,3 +7,4 @@ button { padding: 5px 14px; font: inherit; cursor: pointer; }
 #generate { margin-top: 6px; }
 #status { margin: 4px 0 0; font-size: 12px; }
 #status:empty { display: none; }
+#about { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; margin-top: 4px; font-size: 12px; opacity: 0.75; }

@@ -3,6 +3,7 @@
   "name": "Favoright",
   "version": "0.1.0",
   "description": "Finds favorites that no longer work and makes folder names easier to spot.",
+  "homepage_url": "https://github.com/stevencohn/Favoright",
   "permissions": ["bookmarks", "storage"],
   "optional_permissions": ["history"],
   "host_permissions": ["http://*/*", "https://*/*"],

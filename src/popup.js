@@ -4,6 +4,8 @@ const glyphBox = document.getElementById('folderGlyph');
 const status = document.getElementById('status');
 const scopes = document.querySelectorAll('input[name="scope"]');
 
+document.getElementById('version').textContent = chrome.runtime.getManifest().version;
+
 const settings = await loadSettings();
 glyphBox.checked = settings.folderGlyph;
 for (const radio of scopes) {
